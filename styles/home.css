@@ -1,0 +1,137 @@
+/* Hero section */
+.hero {
+  background: url('../img/hero.jpg') center/cover no-repeat;
+  height: 90vh;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .overlay {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 2rem;
+  border-radius: 12px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.hero h1 span {
+  color: #00e0ff;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* Statistik */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+.stat-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.stat-box h2 {
+  font-size: 2rem;
+  color: #1363C6;
+}
+.stat-box p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* Testimoni */
+.testimonials {
+  background: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.testimonials h2 {
+  font-size: 1.6rem;
+  color: #333;
+}
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.testimonial-card {
+  background: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 320px;
+  font-style: italic;
+  color: #444;
+}
+
+
+
+/* CTA Gabung */
+.cta-join {
+  background: #1363C6;
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+.cta-join h2 {
+  font-size: 1.6rem;
+}
+.cta-join p {
+  margin: 0.5rem 0 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .stat-box {
+    width: 100%;
+    max-width: 300px;
+  }
+  .testimonial-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .stat-box {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero .overlay {
+  animation: slideIn 1s ease-out both;
+}

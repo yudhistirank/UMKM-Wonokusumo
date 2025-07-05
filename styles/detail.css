@@ -1,0 +1,54 @@
+.detail {
+  padding: 2rem 1rem;
+  max-width: 700px;
+  margin: auto;
+  color: #333;
+  line-height: 1.6;
+}
+
+.detail img {
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  max-width: 100%;
+}
+
+.detail h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+  color: #1363C6;
+}
+
+.detail p {
+  margin: 0.4rem 0;
+}
+
+.detail .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #25d366;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.detail .btn:hover {
+  background: #1ebe5d;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .detail img {
+    height: 200px;
+  }
+
+  .detail h2 {
+    font-size: 1.4rem;
+  }
+}

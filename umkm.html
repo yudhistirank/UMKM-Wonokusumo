@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E‑Katalog UMKM Wonokusumo</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/katalog.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">UMKM Wonokusumo</div>
+      <div class="nav-links">
+        <a href="index.html">Beranda</a>
+        <a href="umkm.html">Katalog</a>
+        <a href="about.html" class="active">Tentang</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- tombol filter kategori -->
+  <nav id="category-filters" class="filters"></nav>
+
+  <!-- grid kartu UMKM -->
+  <main id="umkm-container" class="grid"></main>
+
+  <script src="scripts/data.js"></script>
+  <script src="scripts/katalog.js"></script>
+</body>
+</html>
