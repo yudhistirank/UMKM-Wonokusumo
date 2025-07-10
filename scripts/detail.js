@@ -20,6 +20,8 @@ if (!umkm) {
   document.getElementById("detail-phone").textContent = umkm.phone;
   document.getElementById("detail-price").textContent = umkm.priceRange;
   document.getElementById("detail-benefit").textContent = umkm.benefit;
+  document.getElementById("detail-bpom").textContent = umkm.BPOM;
+  document.getElementById("detail-jual").textContent = umkm.JUAL;
 
 
   // NIB optional
