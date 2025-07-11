@@ -356,7 +356,7 @@ const umkmData = [
     id: "Batagor-Siomay-Cireng",
     name: "Batagor Siomay Cireng",
     category: "Makanan",
-    photo: "img/batagor siomay cireng.png",
+    photo: "img/Batagor Siomay Cireng.png",
     address: "Jl. Bulak Sari 31A RT 04 RW 06,  Wonokusumo, Surabaya",
     phone: "0881-0363-47273",
     nib: "-",
